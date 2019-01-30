@@ -1,0 +1,95 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+	margin-left: 150px;
+	margin-right: 600px;
+	margin-top: 150px;
+	margin-bottom: 150px;
+	background-color: rgba(0,0,0,0.8);
+	color: white;
+	font-size: 24px;
+}
+
+h1{
+	font-size: 60px;
+	color: #ff8989; 
+}
+
+h2{
+	font-size: 37px;
+}
+
+h3{
+	font-size: 30px;
+	color: #ff8989;
+	margin-bottom: 40px;
+}
+
+p.insideTitles{
+	font-size: 16px;
+	line-height: 0px;
+	margin: 0;
+	color: #ff8989;
+}
+
+.fontWeightNormal {
+	font-weight: normal;
+	margin-top: 20px;
+}
+
+.fontWeightBold {
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+
+.fontStyleItalic {
+	font-style: italic;
+	margin-top: 20px;
+}
+
+.fontSpacing03em{
+	letter-spacing: 0.3em;
+	margin-top: 20px;
+}
+
+.fontSpacing01em{
+	letter-spacing: 0.1em;
+	margin-top: 20px;
+}
+
+.fontDecorationUnderline{
+	margin-top: 20px;
+	text-decoration: underline;
+}
+
+.fontDecorationLineThrough{
+	margin-top: 20px;
+	text-decoration: line-through;
+}
+
+.fontDecorationOverline{
+	margin-top: 20px;
+	text-decoration: overline;
+}
+
+.fontTransformationUppercase{
+	margin-top: 20px;
+	text-transform: uppercase;
+}
+
+.fontTransformationLowercase{
+	margin-top: 20px;
+	text-transform: lowercase;
+}
+
+.fontTransformationCapitalize{
+	margin-top: 20px;
+	text-transform: capitalize;
+}
+
+
+
+
+
+
+
