@@ -1,0 +1,45 @@
+body {
+	font-family: 'Titillium Web', sans-serif;
+	background-color: #e35344;
+	background-repeat: 
+}
+
+h1 {
+	font-family: 'Codystar', cursive;
+	letter-spacing: 8px;
+	font-size: 110px;
+	text-align: center;
+	margin-top: 170px;
+	color: #feec97;
+	margin-bottom: 20;
+}
+
+h2{
+	font-family: 'Codystar', cursive;
+	letter-spacing: 8px;
+	font-size: 39px;
+	text-align: center;
+	margin-top: 10px;	
+	color: #feec97;
+	margin-bottom: 40;
+}
+
+.rectangle {
+	width: 540;
+	height: 10;
+	background-color: #feec97;
+	position: absolute;
+	left: 34%;
+	margin-bottom: 20;
+}
+
+section {
+	font-size: 30px;
+	text-align: center;
+	color: white;
+}
+
+.misread {
+	font-family: 'Codystar', cursive;
+	color: #feec97;
+}
