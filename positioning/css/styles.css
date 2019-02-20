@@ -1,0 +1,86 @@
+body {
+	width: 960px;
+	margin: 2em auto;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+}
+
+h1 {
+	font-size: 2em;
+	font-weight: normal;
+	margin: 0 0 1rem 0;
+}
+section {
+	padding: 2rem;
+	border: 1px solid #ccc;
+	margin: 4rem 0;
+	background-color: #fff;
+}
+
+aside {
+	font-size: 24px;
+	font-family: Georgia, Serif;
+	font-style: italic;
+	background-color: #aaa;
+	color: #fff;
+	padding: 1.5rem;
+	width: 15rem;
+	margin: 0;
+}
+
+#firstBox {
+	float: right;
+}
+
+#section2{
+	position: relative;
+}
+
+#secondBox {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+
+#thirdBox {
+	background-color: green;
+	position: fixed;
+	right:0;
+	top:0;
+}
+
+/* How do we center a thing perfectly?
+	--> top: 50%, and left: 50%; - but it's only positioning according to the top left corner, not the whole thing
+	of if you know a box is 50px wide, you can set the margin-left to -25px
+	or, transform: translatex(-50%); */
+
+.section4{
+	position: relative;
+}/* by this we set the section as a positioning parent */
+
+/* to make a buttom, use display: inline-block; 
+border-radius: 10px 10px 0 0;*/
+
+#fourthBox {
+	background-color: red;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 50%);
+	z-index: 30;
+}
+
+#fifthBox {
+	background-color: black;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-53%, -47%);
+	z-index: 20;
+}
+
+
+
+
+
