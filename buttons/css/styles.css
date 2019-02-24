@@ -1,0 +1,562 @@
+body {
+	color: #333;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#main_content {
+	margin: 40px;
+}
+
+h1 {
+ 	font-size: 30px;
+ 	margin-bottom: 40px;
+}
+
+.button_container {
+	border: 1px solid #ddd;
+	margin: 0 10px 10px 0;
+	padding: 20px;
+	width: 300px;
+	height: 300px;
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+
+
+a#btn_harley-davidson {
+	display: inline-block;
+	height: 70px;
+	box-sizing: border-box;
+	font-family: 'Helvetica', sans-serif;
+	font-style: bold;
+	text-transform: uppercase;
+	border: 2px solid black;
+	margin: auto;
+	margin-top: 100px;
+	padding: 23px 20px 0 20px;
+	text-align: center;
+	color: white;
+	background-color: orange;
+	text-decoration: none;
+	font-weight: bold;
+
+	/*display: inline-block;
+	height: 50px;
+	box-sizing: border-box;
+	border-radius: 25px;
+	margin: auto;
+	margin-top: 100px;
+	padding: 10px 40px 0 40px;
+	background-color: #2ebd59;
+	border: 2px solid #2ebd59;
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-decoration: none;*/
+}
+
+a#btn_harley-davidson:hover {
+	background: black;
+	text-decoration: none;
+}
+/*a#btn_spotify:hover {
+	background-color: #fff;
+	border: 2px solid #000;
+	color: #000;
+}*/
+
+
+
+a#btn_apple {
+	display: block;
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border-radius: 50px;
+	margin: auto;
+	margin-top: 75px;
+	padding-top: 8px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	font-size: 60px;
+}
+
+a#btn_apple:hover {
+	background-color: white;
+	color: black;
+}
+
+a#btn_lyft {
+	display:inline-block;
+	font-family: 'futura', sans-serif;
+	text-decoration: none;
+	box-sizing: border-box;
+	margin: 0;
+	margin-top: 100px;
+	font-size: 50px;
+	font-weight: bold;
+	color: #ee01cf;
+}
+
+a#btn_lyft:hover {
+	color: #2a2a2a;
+}
+
+a#btn_old-navy {
+	display: inline-block;
+	height: 70px;
+	box-sizing: border-box;
+	font-family: 'Helvetica', sans-serif;
+	font-style: bold;
+	font-size: 30px;
+	text-transform: uppercase;
+	margin: auto;
+	margin-top: 100px;
+	padding: 17px 40px 23px 40px;
+	text-align: center;
+	color: white;
+	background-color: orange;
+	text-decoration: none;
+	font-weight: bold;
+	background-color: #152c48;
+	border-radius: 50px;
+}
+
+a#btn_old-navy:hover {
+	background-color: #1a457a;
+}
+
+a#btn_instagram {
+	display: inline-block; /* why only as inline-block could I set the margin? (otherwise margin-top doens't work) */
+	font-size: 80px;
+	margin-top: 100px;
+	margin:auto;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	color: black;
+}
+a#btn_instagram:hover {
+	color: #3a3a3a;
+	font-size: 85px;
+}
+
+a#btn_exploding-kittens {
+	display: inline-block;
+	height: 60px;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 105px;
+	padding: 10px 30px 0 30px;
+	background-color: #a90329;
+	color: #fff;
+	font-size: 30px;
+	font-family: 'Teko', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	border-radius: 3px;
+}
+
+a#btn_exploding-kittens:hover {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a90329+0,8f0222+52,6d0019+100 */
+	background: #a90329; /* Old browsers */
+	background: -moz-linear-gradient(top, #a90329 0%, #8f0222 52%, #6d0019 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #a90329 0%,#8f0222 52%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #a90329 0%,#8f0222 52%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+}
+
+
+a#btn_motor-trend {
+	display: inline-block;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 90px;
+	padding: 10px 30px 0 30px;
+	color: black;
+	font-size: 60px;
+	line-height: 45px;
+	font-family: 'Teko', sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: none;
+	border-radius: 3px;
+}
+
+a#btn_motor-trend:hover {
+	color: #ee2e24;
+}
+
+a#btn_new-yorker {
+	display: inline-block;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 80px;
+	padding: 0;
+	color: black;
+	font-size: 30px;
+	line-height: 45px;
+	font-family: 'Cinzel Decorative', cursive;
+	font-weight: bold;
+	text-decoration: none;
+	border-radius: 3px;
+}
+
+a#btn_new-yorker:hover {
+	font-size: 34px;
+}
+
+a#btn_moo {
+	display: inline-block;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 100px;
+	padding: 0;
+	color: #3a9e69;
+	font-size: 45px;
+	line-height: 45px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	border-radius: 3px;
+}
+a#btn_moo:hover {
+	color:#33b06e;
+}
+
+a#btn_nike {
+	display: inline-block;
+	box-sizing: border-box;
+	background-color: black;
+	margin: auto;
+	margin-top: 100px;
+	padding: 0;
+	color: white;
+	font-size: 65px;
+	line-height: 45px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	font-style: oblique;
+	text-decoration: none;
+	height: 80px;
+	padding: 15px 30px 0px 20px;
+	border-radius: 15px;
+}
+
+a#btn_nike:hover {
+	background-color: white;
+	color: black;
+}
+
+a#btn_ofa {
+	display: inline-block;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 100px;
+	padding: 0;
+	color: #3abfd7;
+	font-size: 45px;
+	line-height: 45px;
+	font-family: 'futura', sans-serif;
+	font-weight: bold;
+	letter-spacing: 0.001em;
+	text-decoration: none;
+	border-radius: 3px;
+}
+a#btn_ofa:hover {
+	color:black;
+}
+
+a#btn_the-tonight-show {
+	display: inline-block;
+	box-sizing: border-box;
+	height:190px;
+	border-radius: 50%;
+	background-color: #13244e;
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 100px;
+	padding: 50px 30px 40px 30px;
+	color: white;
+	font-size: 30px;
+	line-height: 27px;
+	font-family: 'futura', sans-serif;
+	font-weight: none;
+	letter-spacing: -0.07em;
+	text-decoration: none;
+}
+
+a#btn_the-tonight-show:hover {
+	background-color: white;
+	color: #13244e;
+	border: 2px solid #13244e;
+}
+
+a#btn_pottermore {
+	display: inline-block;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 100px;
+	padding: 4px 30px 4px 30px;
+	color: black;
+	font-size: 30px;
+	line-height: 45px;
+	font-family: 'garamond', cursive;
+	font-weight: bold;
+	letter-spacing: -0.02em;
+	text-decoration: none;
+}
+a#btn_pottermore:hover {
+	border: 1px solid black;
+}
+
+a#btn_hulk-hogan {
+	display: inline-block;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 100px;
+	padding: 4px 60px 4px 60px;
+	color: black;
+	font-size: 14px;
+	line-height: 45px;
+	font-family: 'Helvetica', sans-serif;
+	font-weight: bold;
+	letter-spacing: -0.02em;
+	border: 1px solid black;
+	text-decoration: none;
+	background-color: #fcd41a;
+}
+a#btn_hulk-hogan:hover {
+	color:white;
+}
+
+a#btn_botanical {
+	display: inline-block;
+	margin: auto;
+	margin-top: 100px;
+	color: #355f26;
+	font-size: 30px;
+	line-height: 25px;
+	font-family: 'georgia', serif;
+	letter-spacing: -0.02em;
+	text-decoration: none;
+}
+a#btn_botanical:hover {
+	color:black;
+	font-weight:bold;
+}
+
+a#btn_michael-kors {
+	display: inline-block;
+	margin: auto;
+	margin-top: 100px;
+	color: black;
+	font-size: 30px;
+	line-height: 40px;
+	font-family: 'Muli', sans-serif;
+	letter-spacing: -0.02em;
+	text-decoration: none;
+	font-weight: bold;
+}
+a#btn_michael-kors:hover {
+	text-decoration-line: underline;
+}
+
+a#btn_cartoon-network {
+	display: inline-block;
+	margin: auto;
+	margin-top: 100px;
+	box-sizing: border-box;
+	padding: 20px 13px 17px 13px;
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	line-height: 24px;
+	font-family: 'rockwell', serif;
+	letter-spacing: -0.02em;
+	text-decoration: none;
+	font-weight: bold;
+}
+a#btn_cartoon-network:hover {
+	background-color: #f913a5;
+}
+
+a#btn_molly-jogger {
+	display: inline-block;
+	margin: auto;
+	margin-top: 100px;
+	box-sizing: border-box;
+	padding: 20px 60px 17px 60px;
+	color: #a5c67f;
+	font-size: 20px;
+	line-height: 24px;
+	font-family: 'Syncopate', sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	border: 4px solid #a5c67f;
+	border-radius: 10px;
+}
+
+a#btn_molly-jogger:hover {
+	color: #dff1c9；
+	border: 4px solid #dff1c9;
+}
+
+a#btn_sardella {
+	display: inline-block;
+	margin: auto;
+	margin-top: 100px;
+	box-sizing: border-box;
+	padding: 20px 13px 17px 13px;
+	background-color: #0000ff;
+	color: white;
+	font-size: 50px;
+	line-height: 24px;
+	font-family: 'Teko', sans-serif;
+	letter-spacing: -0.02em;
+	text-decoration: none;
+	font-weight: bold;
+}
+a#btn_sardella:hover {
+	background-color: #00fffc;
+	color: #0000ff;
+}
+
+a#btn_dime-city-cycles {
+	display: inline-block;
+	margin: auto;
+	margin-top: 80px;
+	box-sizing: border-box;
+	padding: 20px 10px 17px 10px;
+	color: #d42929;
+	font-size: 50px;
+	line-height: 40px;
+	font-family: 'Teko', sans-serif;
+	letter-spacing: -0.02em;
+	text-decoration: none;
+	font-weight: bold;
+}
+a#btn_dime-city-cycles:hover {
+	background-color: black;
+	color: white;
+}
+
+a#btn_facebook {
+	display: block;
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 70px;
+	padding: 0;
+	color: #3557c7;
+	text-align: center;
+	font-size: 90px;
+}
+
+a#btn_facebook:hover {
+	color: black;
+	margin-top: 73px;
+}
+
+a#btn_hsn {
+	display: inline-block;
+	box-sizing: border-box;
+	height:110px;
+	border-radius: 50%;
+	background-color: #6db3f2;
+	margin: auto;
+	margin-top: 80px;
+	margin-bottom: 100px;
+	padding: 40px 18px 40px 18px;
+	color: white;
+	font-size: 30px;
+	line-height: 27px;
+	font-family: 'Syncopate', sans-serif;
+	font-weight: bold;
+	font-weight: none;
+	letter-spacing: -0.07em;
+	text-decoration: none;
+}
+
+a#btn_hsn:hover {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6db3f2+0,54a3ee+41,3690f0+60,1e69de+100 */
+	background: #6db3f2; /* Old browsers */
+	background: -moz-linear-gradient(top, #6db3f2 0%, #54a3ee 41%, #3690f0 60%, #1e69de 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #6db3f2 0%,#54a3ee 41%,#3690f0 60%,#1e69de 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #6db3f2 0%,#54a3ee 41%,#3690f0 60%,#1e69de 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db3f2', endColorstr='#1e69de',GradientType=0 ); /* IE6-9 */
+}
+
+a#btn_fitbit {
+	display: inline-block;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 100px;
+	padding: 4px 30px 4px 30px;
+	color: black;
+	font-size: 30px;
+	line-height: 45px;
+	font-family: 'futura', sans-serif;
+	font-weight: bold;
+	letter-spacing: 0.02em;
+	text-decoration: none;
+	border-radius: 5px;
+}
+a#btn_fitbit:hover {
+	background-color: #2bcfd5;
+	color:white;
+}
+
+a#btn_electra {
+	display: inline-block;
+	height: 70px;
+	box-sizing: border-box;
+	font-family: 'Satisfy', cursive;
+	font-size: 40px;
+	letter-spacing: 0.02em;
+	margin: auto;
+	margin-top: 100px;
+	padding: 7px 20px 20px 20px;
+	text-align: center;
+	color: white;
+	background-color: orange;
+	text-decoration: none;
+	font-weight: bold;
+	font-style: italic;
+	background-color: #2bb3d5;
+}
+
+a#btn_electra:hover {
+	background-color: #1e98b6;
+}
+
+a#btn_st-jude {
+	display: inline-block;
+	margin: auto;
+	margin-top: 100px;
+	box-sizing: border-box;
+	padding: 20px 13px 17px 13px;
+	color: black;
+	font-size: 20px;
+	line-height: 24px;
+	font-family: 'Merriweather', serif;
+	letter-spacing: -0.02em;
+	text-decoration: none;
+}
+a#btn_st-jude:hover {
+	color:#c03232;
+}
+
+
+
+
+
+
+		
