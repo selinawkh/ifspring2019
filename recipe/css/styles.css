@@ -1,0 +1,86 @@
+html{
+	padding: 0;
+	margin: 0;
+}
+body{
+	padding: 0;
+	border: 0;
+	font-family: 'Quicksand', sans-serif;
+	letter-spacing: 0.05em;
+}
+
+header {
+	background-image: url('../images/cover-photo.jpg');
+	height: 736px;
+	width: 414px;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding: 0;
+	border: 0;
+	margin:0;
+
+}
+
+#ingredients {
+	background-color: #f0ae58;
+	width: 414px;
+	height: 340px;
+}
+
+
+h1 {
+	margin: 0 40px 30px 60px;
+	padding-top: 50px;
+	font-weight: bold;
+	font-size: 35px;
+}
+
+/* 
+.box {
+	display: inline;
+	width: 30%;
+	margin: 30px 0 0 40px;
+}
+
+.ingredient-pics {
+	float: left;
+	width: 50%;
+	margin-right: 20px;
+}
+*/
+.ingredient-text {
+	font-size: 20px;
+	padding-left: 60px;
+}
+
+i {
+	margin-right: 10px;
+	display: inline;
+}
+
+#facts {
+	background-color: black;
+	background-image: url('../images/facts-bg-2.jpg');
+	background-size: contain;
+	width: 414px;
+	height: 290px;
+	color: white;
+	font-size: 20px;
+	padding-top: 10px;
+}
+.facts-text {
+	font-size: 20px;
+	padding-left: 60px;
+	padding-right: 40px;
+}
+
+#directions {
+	width: 414px;
+	height: 800px;
+	margin: 0;
+}
+
+
+
