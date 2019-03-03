@@ -26,7 +26,7 @@ header {
 #ingredients {
 	background-color: #f0ae58;
 	width: 414px;
-	height: 340px;
+	height: 350px;
 }
 
 
@@ -35,6 +35,23 @@ h1 {
 	padding-top: 50px;
 	font-weight: bold;
 	font-size: 35px;
+}
+
+h2 {
+	font-size: 27px;
+	color:#f0ae58;
+	font-weight: bolder;
+	margin: 0;
+}
+
+h3 {
+	margin: 0;
+	font-size: 35px;
+	text-align: center;
+}
+
+p{
+	margin: 20px 0 20px 0;
 }
 
 /* 
@@ -78,9 +95,87 @@ i {
 
 #directions {
 	width: 414px;
-	height: 800px;
+
+	margin: 0;
+	font-size: 20px;
+}
+#directions-title {
+	margin-bottom: 50px;
+}
+.directions-text {
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+img {
+	width: 90%;
+}
+
+.steps {
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+#step6 {
+	margin-bottom: 80px;
+}
+
+hr {
+	display: block;
+	width: 265px;
+	border: 0;
+    border-top: 1px solid #f0ae58;
 	margin: 0;
 }
+
+#finished {
+	background-color: #f0ae58;
+	width: 414px;
+	height: 100px;
+	padding-top: 50px;
+}
+
+#finished-pic {
+	background-image: url('../images/finished-pic.jpg');
+	height: 273px;
+	width: 414px;
+	background-size: cover;
+}
+
+#copyright {
+	height: 80px;
+	width: 414px;
+	background-color: #132630;
+	color: white;
+	font-size: 5px;
+}
+
+#copyright-text {
+	margin: 0 10px 10px 20px;
+	padding-top: 20px;
+	line-height: 17px;
+}
+
+#rishiji:visited {
+	text-decoration: none;
+	color: white;
+}
+#rishiji:active {
+	text-decoration: none;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
