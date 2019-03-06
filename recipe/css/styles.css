@@ -5,15 +5,16 @@ html{
 body{
 	padding: 0;
 	border: 0;
+	margin: 0;
 	font-family: 'Quicksand', sans-serif;
 	letter-spacing: 0.05em;
 }
 
 header {
 	background-image: url('../images/cover-photo.jpg');
-	height: 736px;
-	width: 414px;
-	background-size: contain;
+	height: 100vh;
+	width: 100vw;
+	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
