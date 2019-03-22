@@ -1,0 +1,72 @@
+body {
+	background-color: #191919;
+	margin: 0;
+	padding: 0;
+	font-family: 'ZCOOL XiaoWei', serif;
+}
+
+h1, h2, h3, h4 {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	margin: 80px 0 50px 0;
+	font-size: 60px;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+	margin: 120px 0 50px 0;
+	font-size: 40px;
+}
+
+img {
+	margin: 0;
+	padding: 0;
+}
+
+#a1 {
+	width: 50%;
+	display: block;
+	margin: auto;
+	margin-top: 0px;
+}
+
+#a2 {
+	width: 25%;
+	display: block;
+	margin: auto;
+	margin-top: 30px;
+}
+
+#b1 {
+	width: 50%;
+	display: block;
+	margin: auto;
+	margin-top: 0px;
+}
+
+#b2 {
+	width: 25%;
+	display: block;
+	margin: auto;
+	margin-top: 30px;
+}
+
+#c1 {
+	width: 50%;
+	display: block;
+	margin: auto;
+	margin-top: 0px;
+}
+
+#c2 {
+	width: 25%;
+	display: block;
+	margin: auto;
+	margin-top: 30px;
+}
