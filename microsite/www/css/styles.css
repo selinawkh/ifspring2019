@@ -23,16 +23,17 @@ p, span {
 	z-index: 20;
 }
 
-#logo {
+.logo {
 	width: 50%;
 	position: relative;
 	display: block;
 	top: 24vh;
 	left: 27%;
+	right: 27%;
 	z-index: 30;
 }
 
-#logo:hover {
+.logo:hover {
 	filter: drop-shadow(0px 0px 5px #fff);
 }
 
@@ -52,6 +53,12 @@ p, span {
 	width: calc(100% / 7);
 }
 
+.navigation > div > a > img, .navigation > div > a {
+	height: 1.2vw;
+	display: inline-block;
+	vertical-align: bottom;
+
+}
 .navi-setting {
 	margin-left: -2.5vw;
 }
@@ -142,8 +149,8 @@ p, span {
 
 .attribute {
 	background-color: #2a0d09;
-	margin-top: 12vh;
-	padding: 5vh 5vh 5vh 5vh;
+	margin-top: 17vh;
+	padding: 5vw;
 	width: 100%;
 
 }
@@ -153,7 +160,7 @@ p, span {
 }
 
 @media (max-width: 768px) {
-	#logo {
+	#main-logo {
 		width: 73%;
 		top: 13vh;
 		left: 16%;
@@ -190,6 +197,42 @@ p, span {
 		.azula {
 			content: url(../images/azula-hover-1.jpg);
 		}
+}
+
+
+
+
+
+/*  Setting  */
+.logo {
+	width: 50%;
+	position: relative;
+	display: block;
+	top: 24vh;
+	left: 27%;
+	right: 27%;
+	z-index: 30;
+}
+#subpage-logo {
+	width: 20%;
+	display: inline-block;
+	top: 16vh;
+	left: 3%;
+}
+
+.subpage-title {
+	position: relative;
+	display: inline-block;
+	z-index: 200;
+	top: 26vh;
+	margin: auto;
+	margin-left: 20vw;
+	width: 16%;
+}
+
+.setting .navigation {
+	background-color: #2a0d09;
+	height: 7vh;
 }
 
 
