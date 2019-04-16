@@ -1,0 +1,197 @@
+body {
+	background-image: url('../images/pattern.png');
+	background-size: 500px;
+	background-color: #872f21;
+	padding: 0;
+	margin: 0;
+}
+
+p, span {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 0.9em;
+	letter-spacing: 0.03em;
+	line-height: 1.6em;
+	color: white;
+	font-size: 0.9em;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#header-pic {
+	width: 100%;
+	position: absolute;
+	z-index: 20;
+}
+
+#logo {
+	width: 50%;
+	position: relative;
+	display: block;
+	top: 24vh;
+	left: 27%;
+	z-index: 30;
+}
+
+#logo:hover {
+	filter: drop-shadow(0px 0px 5px #fff);
+}
+
+.navigation {
+	position: absolute;
+	display: inline-block;
+	z-index: 100;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	padding: 4vh 0 0 3vw;
+}
+.navigation > div {
+	height: 5%;
+	display: inline-block;
+	vertical-align: top;
+	width: calc(100% / 7);
+}
+
+.navi-setting {
+	margin-left: -2.5vw;
+}
+.navi-conception {
+	margin-left: -2vw;
+}
+.navi-influences {
+	margin-left: 1.5vw;
+}
+.navi-themes {
+	margin-left: 1.1vw;
+}
+.navi-reception {
+	margin-left: -1.7vw;
+}
+
+.navi-main:hover, .navi-setting:hover, .navi-conception:hover, .navi-influences:hover,/* 
+*/.navi-themes:hover, .navi-reception:hover, .navi-other-media:hover {
+	filter: drop-shadow(0px 0px 8px #fff);
+}
+
+
+.navigation > div > img {
+	display: inline-block;
+	height: 1.2vw;
+	vertical-align: bottom;
+}
+
+#intro {
+	z-index: 40;
+	position: relative;
+	display: block;
+	margin: 0;
+	margin-top: 33vh;
+	padding: 0 24% 0 24%;
+}
+
+#click {
+	padding-left: 24%;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	font-weight: bold;
+}
+
+.title-pics {
+	padding: 0 24% 0 24%;
+}
+
+.title-pics > div {
+	display: inline-block;
+	width: 30%;
+}
+
+.title-pics > div > img {
+	display: inline-block;
+	width: 100%;
+}
+
+		.sokka, .azula {
+			float: right;
+		}
+		.katara, .toph {
+			position: relative;
+			left: 5%;
+		}
+		.zuko, .toph, .azula {
+			margin-top: 5%;
+		}
+
+.aang:hover {
+	content: url(../images/aang-hover-1.jpg);
+}
+.katara:hover {
+	content: url(../images/katara-hover-1.jpg);
+}
+.sokka:hover {
+	content: url(../images/sokka-hover-1.jpg);
+}
+.zuko:hover {
+	content: url(../images/zuko-hover-1.jpg);
+}
+.toph:hover {
+	content: url(../images/toph-hover-1.jpg);
+}
+.azula:hover {
+	content: url(../images/azula-hover-1.jpg);
+}
+
+.attribute {
+	background-color: #2a0d09;
+	margin-top: 12vh;
+	padding: 5vh 5vh 5vh 5vh;
+	width: 100%;
+
+}
+
+.attribute > span {
+	color: #872f21;
+}
+
+@media (max-width: 768px) {
+	#logo {
+		width: 73%;
+		top: 13vh;
+		left: 16%;
+	}
+	.navigation {
+		display: none;
+	}
+	#intro {
+		margin-top: 18vh;
+		padding: 0 13% 0 13%;
+		font-size: 1em;
+	}
+	#click {
+		padding: 2em 13% 2em 13%;
+	}
+	.title-pics {
+	padding: 0 13% 0 13%;
+	}
+		.aang {
+			content: url(../images/aang-hover-1.jpg);
+		}
+		.katara {
+			content: url(../images/katara-hover-1.jpg);
+		}
+		.sokka {
+			content: url(../images/sokka-hover-1.jpg);
+		}
+		.zuko {
+			content: url(../images/zuko-hover-1.jpg);
+		}
+		.toph {
+			content: url(../images/toph-hover-1.jpg);
+		}
+		.azula {
+			content: url(../images/azula-hover-1.jpg);
+		}
+}
+
+
+
+
