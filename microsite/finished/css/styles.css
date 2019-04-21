@@ -1,0 +1,354 @@
+body {
+	background-image: url('../images/pattern.png');
+	background-size: 500px;
+	background-color: #872f21;
+	padding: 0;
+	margin: 0;
+}
+
+p, span {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 0.9em;
+	letter-spacing: 0.03em;
+	line-height: 1.6em;
+	color: white;
+	font-size: 1.1em;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+strong {
+	font-style: italic;
+}
+
+#header-pic {
+	width: 100%;
+	position: absolute;
+	z-index: -1;
+}
+
+.logo {
+	width: 50%;
+	position: relative;
+	display: block;
+	top: 24vh;
+	left: 27%;
+	right: 27%;
+	z-index: 30;
+}
+
+.logo:hover {
+	filter: drop-shadow(0px 0px 5px #fff);
+}
+
+.navigation {
+	position: absolute;
+	display: inline-block;
+	z-index: 100;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	padding: 3% 0 0 4vw;
+	box-sizing: border-box;
+}
+
+.navigation > div {
+	height: 5%;
+	display: inline-block;
+	vertical-align: top;
+	width: calc(100% / 7);
+}
+
+.navigation > div > a > img, .navigation > div > a {
+	height: 1.2vw;
+	display: inline-block;
+	vertical-align: bottom;
+
+}
+.navi-setting {
+	margin-left: -2.5vw;
+}
+.navi-conception {
+	margin-left: -2vw;
+}
+.navi-influences {
+	margin-left: 1.5vw;
+}
+.navi-themes {
+	margin-left: 1.1vw;
+}
+.navi-reception {
+	margin-left: -1.7vw;
+}
+
+.navi-main:hover, .navi-setting:hover, .navi-conception:hover, .navi-influences:hover,/* 
+*/.navi-themes:hover, .navi-reception:hover, .navi-other-media:hover {
+	filter: drop-shadow(0px 0px 8px #fff);
+}
+
+
+.navigation > div > img {
+	display: inline-block;
+	height: 1.2vw;
+	vertical-align: bottom;
+}
+
+
+
+.intro {
+	z-index: 40;
+	position: relative;
+	display: block;
+	margin: 0;
+	margin-top: 32vh;
+	padding: 0 24% 0 24%;
+}
+
+#click {
+	padding-left: 24%;
+	padding-top: 3em;
+	padding-bottom: 3.9em;
+	font-weight: bold;
+}
+
+.title-pics {
+	padding: 0 24% 0 24%;
+	z-index: 40;
+}
+
+.title-pics > a {
+	display: inline-block;
+	width: 30%;
+}
+
+.title-pics > a > img {
+	display: inline-block;
+	width: 100%;
+}
+
+		.sokka, .azula {
+			float: right;
+		}
+		.katara, .toph {
+			position: relative;
+			left: 5%;
+		}
+		.zuko, .toph, .azula {
+			margin-top: 5%;
+		}
+
+.aang:hover {
+	content: url(../images/aang-hover-1.jpg);
+}
+.katara:hover {
+	content: url(../images/katara-hover-1.jpg);
+}
+.sokka:hover {
+	content: url(../images/sokka-hover-1.jpg);
+}
+.zuko:hover {
+	content: url(../images/zuko-hover-1.jpg);
+}
+.toph:hover {
+	content: url(../images/toph-hover-1.jpg);
+}
+.azula:hover {
+	content: url(../images/azula-hover-1.jpg);
+}
+
+.attribute {
+	background-color: #43140b;
+	margin-top: 17vh;
+	padding:  3.5vh 5vw 3.5vh 5vw;
+	box-sizing: border-box;
+	width: 100%;
+	font-size: 0.9em;
+}
+
+.attribute > span {
+	color: #872f21;
+}
+
+
+
+
+/*  Setting  */
+
+#subpage-logo {
+	width: 20%;
+	display: inline-block;
+	top: 120px;
+	left: 5%;
+}
+.logo:hover {
+	filter: drop-shadow(0px 0px 3px #fff);
+}
+
+
+.subpage-title {
+	position: relative;
+	display: inline-block;
+	z-index: 200;
+	top: 200px;
+	margin: auto;
+	margin-left: 22vw;
+	width: 16%;
+}
+
+#sub-conception, #sub-influences, #sub-reception {
+	width: 24%;
+	margin-left: 18vw;
+}
+#sub-other-media {
+	width: 33%;
+	margin-left: 14vw;
+}
+
+.subpage .navigation {
+	background-image: url(../images/navi-bg.png);
+	background-size: contain;
+	background-repeat: repeat-x;
+	height: 100px;
+}
+
+
+.subpage-pics {
+	width: 100%;
+	margin-bottom: 0;
+}
+
+.pic-note {
+	margin-bottom: 8.7%;
+	margin-top: 5px;
+	font-size: 0.8em;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+	body {
+		background-size: 400px;
+	}
+	#main-logo {
+		width: 73%;
+		top: 150px;
+		left: 16%;
+	}
+	/*.navigation {
+		display: none;
+	}*/
+
+	.intro {
+		margin-top: 160px;
+		padding: 40px 9% 0 9%;
+		font-size: 0.8em;
+	}
+
+	#click {
+		padding: 2em 13% 2em 13%;
+				font-size: 0.8em;
+	}
+	.title-pics {
+	padding: 0 13% 0 13%;
+	z-index: 410;
+	}
+		.aang {
+			content: url(../images/aang-hover-1.jpg);
+		}
+		.katara {
+			content: url(../images/katara-hover-1.jpg);
+		}
+		.sokka {
+			content: url(../images/sokka-hover-1.jpg);
+		}
+		.zuko {
+			content: url(../images/zuko-hover-1.jpg);
+		}
+		.toph {
+			content: url(../images/toph-hover-1.jpg);
+		}
+		.azula {
+			content: url(../images/azula-hover-1.jpg);
+		}
+
+	#header-pic {
+		content: url(../images/heading-pic-3.png);
+		position: fixed;
+	}
+
+	.navigation {
+		position: absolute;
+		display: inline-block;
+		z-index: 100;
+		padding: 0;
+		margin: 0;
+		margin: auto;
+		width: 100%;
+		padding: 1vh 3vw 0 3vw;
+		box-sizing: border-box;
+
+	}
+	.navigation > div {
+		height: 5%;
+		display: inline-block;
+		vertical-align: top;
+		width: calc(100% / 4);
+		text-align:center;
+		margin-bottom: 3%;
+	}
+
+	.navigation > div > a > img {
+		display: inline-block;
+		height: 2vw;
+		vertical-align: bottom;
+	}
+
+	#subpage-logo {
+		width: 28%;
+		display: inline-block;
+		top: 100px;
+		left: 10%;
+	}
+
+	.subpage-title {
+		padding: 0;
+		top:180px;
+		margin: 0 0 0 13%;
+	}
+
+	#sub-conception, #sub-influences, #sub-reception {
+		margin-left: 10vw;
+	}
+	#sub-other-media {
+	margin-left: 5vw;
+	}
+
+	.subpage .navigation {
+		height: 200px;
+		background-image: url(../images/navi-bg-2.png);
+		background-size: 100%;
+		background-repeat: repeat-x;
+	}
+
+	/*.sub-navi {
+	background-image: url("../images/navi-bg.png");
+	background-size: contain;
+
+}*/
+
+	.attribute {
+		font-size: 0.6em;
+	}
+}
+
+
+
+
+
+
+
+
+
+
