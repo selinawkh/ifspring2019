@@ -1,0 +1,59 @@
+body {
+	padding: 0;
+	margin: 0;
+	padding: 110px 150px 0 150px;
+	font-family: 'Kanit', sans-serif;
+}
+
+h1, h2, h3 {
+	margin: 0;
+}
+
+h1 {
+	margin: auto;
+	text-align: center;
+	margin-bottom: 85px;
+	font-size: 60px;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 0.05em;
+	line-height: 70px;
+}
+
+h2 {
+	margin: auto;
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 40px;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 0.05em;
+	line-height: 70px;
+}
+
+h3 {
+	text-align: center;
+	letter-spacing: 0.1em;
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+
+.blocks{
+	width: 47%;
+	margin: 0;
+	display: inline-block;
+}
+.microsite {
+	margin-right: 4%;
+}
+.kinetic-type {
+	width: 50%;
+	margin-left: 25%;
+}
+.display-pic {
+	width: 100%;
+}
+.part {
+	margin-bottom: 100px;
+}
+
+
+
